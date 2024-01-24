@@ -31,3 +31,48 @@ footer {
         }
     }
 }
+
+@media only screen and (max-width: 1130px){
+    footer { 
+    
+        .footer__wrapper {  
+
+            &-items { 
+                gap: 5px;  
+                margin: 0 auto;
+
+                &-name { 
+                    color: #FFF;
+                    font-size: 2rem; 
+                }
+    
+                &-date { 
+                    font-size: 1.3rem; 
+                }
+            }
+        }
+    }
+}
+ 
+@media only screen and (max-width: 640px) {
+    footer { 
+    
+        .footer__wrapper { 
+    
+    
+            &-items { 
+                align-items: center;
+                gap: 2px;  
+                padding-right: 220px;
+    
+                &-name { 
+                    font-size: 1.3rem; 
+                }
+    
+                &-date { 
+                    font-size: 1rem; 
+                }
+            }
+        }
+    }
+}

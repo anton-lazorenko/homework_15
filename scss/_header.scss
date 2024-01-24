@@ -11,7 +11,7 @@ header {
         list-style-type: none;
         display: flex;
         align-items: center;
-        gap: 42px; 
+        gap: 42px;
         font-size: 1.6rem;
         text-transform: uppercase;
         padding: 79px 0 0 399px;
@@ -26,4 +26,37 @@ header {
             text-transform: uppercase;
         }
     }
+}
+
+@media only screen and (max-width: 1130px) {
+    .header__wrapper { 
+ 
+        &-list {  
+            font-size: 1.6rem;
+            gap: 15px;  
+            padding: 20px 20px 20px 300px;
+
+            &-items {  
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    .header__wrapper { 
+    
+    
+        &-list { 
+            gap: 10px;
+            font-size: .9rem; 
+            padding: 30px 0 0 150px; 
+    
+            &-items { 
+                font-size: .9rem; 
+                letter-spacing: 1.6px; 
+            }
+        }
+    }
+    
 }
