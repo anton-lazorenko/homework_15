@@ -1,0 +1,29 @@
+header {
+    background-color: #EEEFF1;
+}
+
+.header__wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+
+
+    &-list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        gap: 42px; 
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        padding: 79px 0 0 399px;
+        letter-spacing: 1.7px;
+
+        &-items {
+            color: #34547A;
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 164%;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+        }
+    }
+}
