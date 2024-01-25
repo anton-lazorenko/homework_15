@@ -336,20 +336,21 @@ header {
 
 @media only screen and (max-width: 1130px) {
   .header__wrapper-list {
+    justify-content: center;
     font-size: 1.6rem;
     gap: 15px;
-    padding: 20px 20px 20px 300px;
+    padding: 20px 40px 20px 100px;
   }
 }
 @media only screen and (max-width: 640px) {
   .header__wrapper-list {
     gap: 10px;
-    font-size: 0.9rem;
-    padding: 0;
+    font-size: 2.9rem;
+    padding: 0 40px;
     flex-direction: column;
   }
   .header__wrapper-list-items {
-    font-size: 0.9rem;
+    font-size: 2.9rem;
     letter-spacing: 1.6px;
   }
 }
@@ -500,8 +501,11 @@ header {
 }
 
 @media only screen and (max-width: 1130px) {
+  .hero-section .hero-section__wrapper {
+    padding: 0 40px;
+  }
   .hero-section .hero-section__wrapper-items {
-    padding: 20px;
+    padding: 40px 0;
   }
   .hero-section .hero-section__wrapper-items h1 {
     font-size: 4.8rem;
@@ -532,17 +536,19 @@ header {
     padding: 10px;
   }
   .first-section .first-section__wrapper h2 {
-    font-size: 3.2rem;
+    padding-top: 10px;
+    width: 403px;
+    height: 30px;
+    text-align: center;
+    font-size: 4.2rem;
   }
   .first-section .first-section__wrapper span {
+    padding-top: 10px;
+    padding-bottom: 50px;
     width: 540px;
     height: 67px;
-    color: #727272;
     text-align: center;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 164%;
-    letter-spacing: 0.02px;
+    font-size: 2rem;
   }
   .second-section {
     background-color: #34547A;
@@ -552,16 +558,18 @@ header {
     margin: 0 auto;
     align-items: center;
     color: #fff;
+    padding: 0 40px;
   }
   .second-section .second-section__wrapper-list {
     display: flex;
     align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px 40px;
+    gap: 5px;
   }
   .second-section .second-section__wrapper-list-items {
     display: flex;
     align-items: center;
+    gap: 5px;
   }
   .second-section .second-section__wrapper-list-items .caption-flex {
     display: flex;
@@ -583,28 +591,24 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 40px;
   }
   .third-section .third-section__wrapper h2 {
     padding-top: 10px;
     width: 403px;
     height: 30px;
-    color: #000;
     text-align: center;
     font-size: 4.2rem;
-    font-weight: 500;
   }
   .third-section .third-section__wrapper span {
-    padding-top: 20px;
+    padding-top: 40px;
     width: 540px;
     height: 67px;
-    color: #727272;
     text-align: center;
     font-size: 2rem;
-    font-weight: 400;
-    line-height: 164%;
   }
   .third-section .third-section__wrapper .youtube {
-    padding: 57px 0 10px 0;
+    padding: 57px 0 40px 0;
     min-width: 500px;
     height: 272px;
   }
@@ -616,18 +620,20 @@ header {
   }
   .hero-section .hero-section__wrapper-items h1 {
     color: #000;
-    font-size: 1.8rem;
+    font-size: 4.8rem;
   }
   .hero-section .hero-section__wrapper-items span {
-    width: 200px;
-    height: 67px;
-    font-size: 1rem;
+    padding-bottom: 60px;
+    width: 500px;
+    height: 87px;
+    font-size: 2.7rem;
     text-align: center;
   }
   .hero-section .hero-section__wrapper-items button {
-    font-size: 0.6rem;
-    width: 100px;
-    height: 35px;
+    margin-top: 15px;
+    font-size: 1.6rem;
+    width: 200px;
+    height: 65px;
   }
   .first-section {
     background-color: #fff;
@@ -638,31 +644,31 @@ header {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 10px 0 40px 0;
+    padding: 20px 0 40px 0;
   }
   .first-section .first-section__wrapper h2 {
     width: 203px;
     height: 30px;
     text-align: center;
     font-size: 3.2rem;
-    font-weight: 500;
+    padding-bottom: 30px;
   }
   .first-section .first-section__wrapper span {
-    width: 340px;
-    height: 67px;
+    width: 440px;
+    height: 87px;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 2.3rem;
+    padding-bottom: 60px;
   }
   .second-section .second-section__wrapper-list {
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
   }
   .second-section .second-section__wrapper-list-items {
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 2px;
   }
@@ -672,33 +678,34 @@ header {
     gap: 10px;
   }
   .second-section .second-section__wrapper-list-items .caption-flex .number {
-    font-size: 1.1rem;
+    font-size: 2.1rem;
   }
   .second-section .second-section__wrapper-list-items .caption-flex span {
-    font-size: 0.8rem;
+    font-size: 1.8rem;
   }
   .third-section .third-section__wrapper {
     justify-content: center;
     align-items: center;
   }
   .third-section .third-section__wrapper h2 {
-    padding-top: 10px;
-    width: 203px;
+    width: 303px;
     height: 30px;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
   }
   .third-section .third-section__wrapper span {
-    padding-top: 5px;
-    width: 340px;
-    height: 67px;
+    width: 440px;
+    height: 87px;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 2.3rem;
+    padding-bottom: 30px;
   }
   .third-section .third-section__wrapper .youtube {
-    padding: 57px 0 10px 0;
-    min-width: 400px;
-    height: 250px;
+    padding: 57px 40px 30px 40px;
+    min-width: 450px;
+    min-height: 150px;
   }
 }
 footer {

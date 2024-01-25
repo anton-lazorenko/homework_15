@@ -170,9 +170,9 @@
     .hero-section {
   
         .hero-section__wrapper { 
-    
+            padding: 0 40px; 
             &-items { 
-                padding: 20px;
+                padding: 40px 0;
                 
     
                 h1 { 
@@ -210,19 +210,21 @@
             padding: 10px;
     
     
-            h2 { 
-                font-size: 3.2rem; 
+            h2 {
+                padding-top: 10px;
+                width: 403px;
+                height: 30px; 
+                text-align: center;
+                font-size: 4.2rem; 
             }
     
-            span {
+            span { 
+                padding-top: 10px;
+                padding-bottom: 50px;
                 width: 540px;
-                height: 67px;
-                color: #727272;
+                height: 67px; 
                 text-align: center;
-                font-size: 1.6rem;
-                font-weight: 400;
-                line-height: 164%;
-                letter-spacing: 0.02px;
+                font-size: 2rem; 
             }
         }
     }
@@ -235,16 +237,19 @@
             margin: 0 auto; 
             align-items: center;
             color: #fff;
+            padding: 0 40px; 
     
             &-list {
                 display: flex;
                 align-items: center; 
-                padding-top: 10px;
-                padding-bottom: 10px;
+                padding: 20px 40px;
+                gap: 5px;
+
     
                 &-items {
                     display: flex;
                     align-items: center; 
+                    gap: 5px;
     
                     .caption-flex {
                         display: flex;
@@ -275,30 +280,26 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 0 40px; 
     
             h2 {
                 padding-top: 10px;
                 width: 403px;
-                height: 30px;
-                color: #000;
+                height: 30px; 
                 text-align: center;
-                font-size: 4.2rem;
-                font-weight: 500;
+                font-size: 4.2rem; 
             }
     
             span { 
-                padding-top: 20px;
+                padding-top: 40px;
                 width: 540px;
-                height: 67px;
-                color: #727272;
+                height: 67px; 
                 text-align: center;
-                font-size: 2rem;
-                font-weight: 400;
-                line-height: 164%;
+                font-size: 2rem; 
             }
     
             .youtube {
-                padding: 57px 0 10px 0;
+                padding: 57px 0 40px 0;
                 min-width: 500px;
                 height: 272px; 
             }
@@ -311,6 +312,7 @@
     .hero-section { 
 
         .hero-section__wrapper { 
+
     
             &-items {
                 display: flex;
@@ -318,20 +320,22 @@
     
                 h1 {
                     color: #000;
-                    font-size: 1.8rem; 
+                    font-size: 4.8rem; 
                 }
     
                 span {
-                    width: 200px;
-                    height: 67px; 
-                    font-size: 1rem; 
+                    padding-bottom: 60px;
+                    width: 500px;
+                    height: 87px; 
+                    font-size: 2.7rem; 
                     text-align: center;
                 }
     
                 button { 
-                    font-size: .6rem;   
-                    width: 100px;
-                    height: 35px;  
+                    margin-top: 15px;
+                    font-size: 1.6rem;   
+                    width: 200px;
+                    height: 65px;  
                 }
             }
         }
@@ -346,22 +350,23 @@
             justify-content: center;
             align-items: center;
             gap: 10px;
-            padding: 10px 0 40px 0;
+            padding: 20px 0 40px 0;
     
     
             h2 {
                 width: 203px;
                 height: 30px; 
                 text-align: center;
-                font-size: 3.2rem;
-                font-weight: 500;
+                font-size: 3.2rem; 
+                padding-bottom: 30px;
             }
     
             span {
-                width: 340px;
-                height: 67px; 
+                width: 440px;
+                height: 87px; 
                 text-align: center;
-                font-size: 1.6rem; 
+                font-size: 2.3rem; 
+                padding-bottom: 60px;
             }
         }
     }
@@ -374,12 +379,11 @@
                 flex-direction: column;
                 align-items: center;
                 gap: 5px;
-                padding-top: 10px;
+                padding-top: 20px;
                 padding-bottom: 10px;
     
                 &-items {
-                    display: flex;
-                    flex-direction: column;
+                    display: flex; 
                     align-items: center;
                     gap: 2px;
     
@@ -389,10 +393,10 @@
                         gap: 10px; 
     
                         .number {
-                            font-size: 1.1rem;
+                            font-size: 2.1rem;
                         }
                         span {
-                            font-size: 0.8rem;
+                            font-size: 1.8rem;
                         }
     
                     }
@@ -410,25 +414,26 @@
             align-items: center;
     
             h2 {
-                padding-top: 10px;
-                width: 203px;
+                width: 303px;
                 height: 30px; 
                 text-align: center;
-                font-size: 2.2rem; 
+                font-size: 3.2rem;
+                padding-top: 30px; 
+                padding-bottom: 10px;
             }
     
-            span { 
-                padding-top: 5px;
-                width: 340px;
-                height: 67px; 
+            span {
+                width: 440px;
+                height: 87px; 
                 text-align: center;
-                font-size: 1.6rem; 
+                font-size: 2.3rem; 
+                padding-bottom: 30px;
             }
     
             .youtube {
-                padding: 57px 0 10px 0;
-                min-width: 400px;
-                height: 250px; 
+                padding: 57px 40px 30px 40px;
+                min-width: 450px;
+                min-height: 150px; 
             }
         }
     }
